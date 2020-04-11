@@ -1,2 +1,2 @@
-# Google-Home-and-Search-Results-Page
-This is part of a mini-project @ TheOdinProject.com for "The Front End" lessons.
+# Google Home and Search Results Page
+This is part of a mini-project @ TheOdinProject.com to do after completing "The Front End" lessons.
