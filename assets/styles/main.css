@@ -1,0 +1,124 @@
+.links:hover {
+    text-decoration: underline;
+}
+#google-header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+#google-header-box ul {
+    padding: 20px 35px;
+}
+#google-apps i {
+    vertical-align: middle;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+#google-apps {
+    color: rgba(0, 0, 0, 0.6);
+}
+#google-apps:hover {
+    color: rgba(0, 0, 0, 1);
+}
+#google-sign-in {
+    padding: 8px 15px;
+    background-color: #4285f4;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+#google-header-box li {
+    display: inline-block;
+    margin-left: 10px;
+}
+#google-main-box {
+    text-align: center;
+    margin-top: 100px;
+}
+#google-search-box {
+    margin-top: 30px;
+}
+#google-search-form {
+    display: flex;
+    flex-direction: column;
+}
+#google-search-label {
+    padding: 10px 20px;
+    border: 1px solid rgba(211, 211, 211, 0.6);
+    border-radius: 60px;
+    display: inline-block;
+    text-align: start;
+}
+#google-search-label:hover, #google-search-label:focus-within {
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+#search-icon {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+#mic-icon {
+    vertical-align: middle;
+    font-size: 1.3em;
+    color: #4285f4;
+}
+#google-search-buttons input {
+    padding: 10px;
+    background-color: rgba(211, 211, 211, 0.3);
+    margin: 30px 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#google-search-buttons input:hover {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 1);
+}
+#search {
+    width: 35vw;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+#search:focus, #search:hover {
+    border-right: 1px solid rgba(211, 211, 211, 0.6);
+    padding-right: 10px;
+}
+#google-footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 10px 35px;
+    border-top: rgba(211, 211, 211);
+    border-top-width: 1px;
+    border-top-style: solid;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#google-footer-box li {
+    display: inline-block;
+    font-size: 15px;
+}
+#google-footer-box li a {
+    color: rgba(0, 0, 0, 0.6);
+}
+#google-footer-box ul:nth-child(1) li {
+    margin-right: 20px;
+}
+#google-footer-box ul:nth-child(2) li {
+    margin-left: 20px;
+}
+@media (max-width: 700px) {
+    #google-main-box {
+        margin-top: 30px;
+    }
+    #google-footer-box ul {
+        margin-top: 10px;
+    }
+    #google-footer-box li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
